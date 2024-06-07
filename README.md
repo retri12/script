@@ -1,0 +1,2 @@
+# script
+SCRIPT BY @VnzVPN
