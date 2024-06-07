@@ -1,2 +1,2 @@
 # script
-SCRIPT BY @VnzVPN
+SCRIPT BY @RetriVPN
