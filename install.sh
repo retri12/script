@@ -334,8 +334,8 @@ END
 
 cat> /etc/systemd/system/badvpn.service << END
 [Unit]
-Description=BadVPN Gaming Support Port 7300 By VnzVPN
-Documentation=https://t.me/VnzVPN
+Description=BadVPN Gaming Support Port 7300 By RetriVpn
+Documentation=https://t.me/RetriVpn
 After=syslog.target network-online.target
 
 [Service]
@@ -353,7 +353,7 @@ END
 
 cat> /etc/systemd/system/edu.service << END
 [Unit]
-Description=WebSocket All OS By VnzVM
+Description=WebSocket All OS By RetriVpn
 Documentation=https://github.com/Rerechan-Team
 After=syslog.target network-online.target
 
@@ -399,7 +399,7 @@ chmod +x /etc/req/*
 # [ Membuat Service ]
 cat <<EOF >/etc/systemd/system/udp-request.service
 [Unit]
-Description=UDP Request By @VnzVPN
+Description=UDP Request By @RetriVpn
 After=network.target
 
 [Service]
