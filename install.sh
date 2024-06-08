@@ -2,8 +2,8 @@
 
 # */
 # Credit Autoscript AIO
-# [ @VnzVM | Owner     ]
-# [ @VnzVPN | channel   ]
+# [ @RetriVpn | Owner     ]
+# [ @testiretri | channel   ]
 # [ @funnyvpn   | Base Code ]
 # [ @praiman99  | Base Menu ]
 # ===========================
@@ -139,7 +139,7 @@ rm /etc/default/dropbear
 rm /etc/issue.net
 cat> /etc/issue.net << END
 <p style="text-align:center">
-<font color="#00FF00"><b> WELCOME TO VnzVPN </b></font><br>
+<font color="#00FF00"><b> WELCOME TO RetriVpn </b></font><br>
 <font color='#FF0059'>▬</font><font color='#F1006F'>▬</font><font color='#E30085'>▬</font><font color='#D6009B'>▬</font><font color='#C800B1'>▬</font><font color='#BB00C7'>ஜ</font><font color='#AD00DD'>۩</font><font color='#9F00F3'>۞</font><font color='#9F00F3'>۩</font><font color='#AD00DD'>ஜ</font><font color='#BB00C7'>▬</font><font color='#C800B1'>▬</font><font color='#D6009B'>▬</font><font color='#E30085'>▬</font><font color='#F1006F'>▬</font><br>
 <font color="#F5FE00"><b> THANKS YOU FOR USING OUR SERVICE </b></font><br>
 <font color="#FFA500"><b> PLEASE FOLLOW THE SERVER RULES </b></font><br>
@@ -149,10 +149,10 @@ cat> /etc/issue.net << END
 <font color="#FF1493"><b> NO TORRENT FILE </b></font><br>
 <font color='#6495ED'><b>         NO DDOS           </b></font><br>
 <font color='#BC8F8F'><b>  NO HACKING AND CARDING   </b></font><br>
-<font color="#E51369"><b>    MAX LOGIN 1 DEVICE     </b></font><br>
+<font color="#E51369"><b>    MAX LOGIN 2 DEVICE     </b></font><br>
 <font color='red'><b> IF YOU VIOLATE YOUR ACCOUNT WE WILL BE BANNED </b></font><br>
-<font color="#40E0D0"><b> Join Telegram Channel: https://t.me/VnzVPN</br></font><br>
-<font color="#6A5ACD"><b> Buy VPN Premium Contact https://t.me/VnzVM</br></font><br>
+<font color="#40E0D0"><b> Join Telegram Channel: https://t.me/testiretri</br></font><br>
+<font color="#6A5ACD"><b> Buy VPN Premium Contact https://t.me/RetriVpn</br></font><br>
 <font color='#FF0059'>▬</font><font color='#F1006F'>▬</font><font color='#E30085'>▬</font><font color='#D6009B'>▬</font><font color='#C800B1'>▬</font><font color='#BB00C7'>ஜ</font><font color='#AD00DD'>۩</font><font color='#9F00F3'>۞</font><font color='#9F00F3'>۩</font><font color='#AD00DD'>ஜ</font><font color='#BB00C7'>▬</font><font color='#C800B1'>▬</font><font color='#D6009B'>▬</font><font color='#E30085'>▬</font><font color='#F1006F'>▬</font>
 END
 cat>  /etc/default/dropbear << END
@@ -299,7 +299,7 @@ JSON
 # // Membuat Service
 cat> /etc/systemd/system/xray.service << END
 [Unit]
-Description=Xray by VnzVPN
+Description=Xray by RetriVpn
 Documentation=https://indo-ssh.com
 After=network.target nss-lookup.target
 
@@ -319,8 +319,8 @@ END
 # // Membuat service Lainya
 cat> /etc/systemd/system/limit.service << END
 [Unit]
-Description=Limit All Service By VnzVPN
-Documentation=https://t.me/VnzVPN
+Description=Limit All Service By RetriVpn
+Documentation=https://t.me/testiretri
 After=syslog.target network-online.target
 
 [Service]
@@ -438,7 +438,7 @@ clear
 echo ""
 echo -e "\e[1m\e[34m****************************************************"
 echo -e "  Installation & Configuration of \e[1;36mHysteria Protocol"
-echo -e "              (Version 1.3.5) - by: @VnzVPN"
+echo -e "              (Version 1.3.5) - by: @RetriVpn"
 echo -e "\e[1m\e[34m****************************************************\e[0m"
 echo ""
 }
