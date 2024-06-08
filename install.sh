@@ -484,7 +484,7 @@ fi
 }
 valid_keys=$(fetch_valid_keys)
 echo ""
-figlet -k VNZ-AIO | awk '{gsub(/./,"\033[3"int(rand()*5+1)"m&\033[0m")}1' && figlet -k Hysteria | awk '{gsub(/./,"\033[3"int(rand()*5+1)"m&\033[0m")}1'
+figlet -k RetriVPN | awk '{gsub(/./,"\033[3"int(rand()*5+1)"m&\033[0m")}1' && figlet -k Hysteria | awk '{gsub(/./,"\033[3"int(rand()*5+1)"m&\033[0m")}1'
 echo "───────────────────────────────────────────────────────────────────────•"
 echo ""
 echo ""
