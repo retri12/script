@@ -513,7 +513,7 @@ echo "Input must be at least $min_length characters long."
 return 1
 fi
 }
-figlet -k VnzVM | awk '{gsub(/./,"\033[3"int(rand()*5+1)"m&\033[0m")}1' && figlet -k Hysteria | awk '{gsub(/./,"\033[3"int(rand()*5+1)"m&\033[0m")}1'
+figlet -k RetriVPN | awk '{gsub(/./,"\033[3"int(rand()*5+1)"m&\033[0m")}1' && figlet -k Hysteria | awk '{gsub(/./,"\033[3"int(rand()*5+1)"m&\033[0m")}1'
 echo "───────────────────────────────────────────────────────────────────────•"
 echo -e "   Hysteria Server Configuration"
 echo -e "*******************************************\e[0m"
@@ -1172,7 +1172,7 @@ fi
 client_config() {
 clear
 echo ""
-figlet -k VNZ-AIO | lolcat && figlet -k Hysteria | lolcat
+figlet -k Retri-VPN | lolcat && figlet -k Hysteria | lolcat
 echo -e "\e[1;34m************************************"
 echo -e "   Generating Client configuration"
 echo -e "       please wait for 5 seconds..."
@@ -1215,11 +1215,11 @@ URI(with port hopping)
 $url
 ---------------------
 (Version 1.3.5)
-script by: @VnzVPN
+script by: @RetriVpn
 EOF
 chmod +x /etc/hysteria/client/config.json
 echo ""
-figlet -k VNZ-AIO | lolcat && figlet -k Hysteria | lolcat
+figlet -k Retri-VPN | lolcat && figlet -k Hysteria | lolcat
 echo -e "\e[1;36m----------------------"
 echo -e " Client Configuration"
 echo -e "----------------------\e[0m"
@@ -1237,7 +1237,7 @@ echo -e "$url"
 echo -e ""
 echo -e "---------------------"
 echo -e "(Version 1.3.5)"
-echo -e "script by: @VnzVPN"
+echo -e "script by: @RetriVpn"
 echo ""
 echo ""
 echo -e "Client 'config.json' & 'info.txt' file generated in the"
